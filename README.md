@@ -7,6 +7,9 @@ My MacOS configuration
 
 ## TODO
 - Homebrew
+- Spiceify (with Extensions)
+- WhatTheFuck
+- NeoVim
 - Terminal Preferences
 - Default Shell to ZSH
 - Dock Preferences
@@ -15,6 +18,7 @@ My MacOS configuration
 - Startup Applications
 - Finder Show Path Bar
 - Git (config and SSH)
+
 
 ## Applications to Install
 - Alfred
