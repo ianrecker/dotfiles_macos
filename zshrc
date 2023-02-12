@@ -5,7 +5,8 @@ echo 'Hello from .zshrc'
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -lAFh'
+alias ls='ls -a'
+alias lvim='/Users/ian/.local/bin/lvim'
 
 # Customize Prompt(s)
 PROMPT='
@@ -24,3 +25,4 @@ function mkcd() {
 # Use ZSH Plugins
 
 # ...and Other Surprisess
+export PATH=$PATH:/Users/ian/.spicetify

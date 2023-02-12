@@ -6,6 +6,7 @@ My MacOS configuration
 - Keyboard Shortcuts
 
 ## TODO
+- Homebrew
 - Terminal Preferences
 - Default Shell to ZSH
 - Dock Preferences
