@@ -7,7 +7,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -a'
+alias ls='ls -laFh'
 #alias lvim='/Users/ian/.local/bin/lvim'
 
 # Customize Prompt(s)

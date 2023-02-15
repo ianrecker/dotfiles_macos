@@ -1,11 +1,14 @@
 # dotfiles_macos
+
 My MacOS configuration
 
 # Future Files to Add:
+
 - Amethysist
 - Keyboard Shortcuts
 
 ## TODO
+
 - Terminal Preferences
 - Default Shell to ZSH
 - Dock Preferences
@@ -14,14 +17,17 @@ My MacOS configuration
 - Accessability Settings
 - Startup Applications
 - Finder Show Path Bar
+- Mouse Color + Size
 
 ## Packages
+
 - Homebrew
 - WhatTheFuck
 - Git (config and SSH)
 - Httpie
 
 ## Applications to Install
+
 - Spiceify (with Extensions)
 - Alfred
 - Amethysist
