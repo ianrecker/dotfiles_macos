@@ -6,23 +6,26 @@ My MacOS configuration
 - Keyboard Shortcuts
 
 ## TODO
-- Homebrew
-- Spiceify (with Extensions)
-- WhatTheFuck
-- NeoVim
 - Terminal Preferences
 - Default Shell to ZSH
 - Dock Preferences
 - Mission Control Preferences
 - Assigned Applications to Mission Control (Spaces)
+- Accessability Settings
 - Startup Applications
 - Finder Show Path Bar
-- Git (config and SSH)
 
+## Packages
+- Homebrew
+- WhatTheFuck
+- Git (config and SSH)
+- Httpie
 
 ## Applications to Install
+- Spiceify (with Extensions)
 - Alfred
 - Amethysist
+- Neovim
 - RescueTime
 - Loom
 - VS Code
@@ -30,6 +33,7 @@ My MacOS configuration
 - HP Smart
 - Discord
 - Brave
+- Virtual Box (Available)
 
 - Microsoft Teams
 - Microsoft Excel

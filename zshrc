@@ -1,6 +1,8 @@
 echo 'Hello from .zshrc'
 
 # Set Variables
+# Syntax Highlighting for Man pages with bat
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Change ZSH Options
 
