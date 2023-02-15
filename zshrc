@@ -8,7 +8,7 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 
 # Create Aliases
 alias ls='ls -a'
-alias lvim='/Users/ian/.local/bin/lvim'
+#alias lvim='/Users/ian/.local/bin/lvim'
 
 # Customize Prompt(s)
 PROMPT='
@@ -28,3 +28,4 @@ function mkcd() {
 
 # ...and Other Surprisess
 export PATH=$PATH:/Users/ian/.spicetify
+export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
