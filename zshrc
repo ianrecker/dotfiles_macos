@@ -1,5 +1,3 @@
-echo 'Hello from .zshrc'
-
 # Set Variables
 # Syntax Highlighting for Man pages with bat
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -9,8 +7,8 @@ export HOMEBREW_OPTS="--no-quarentine"
 
 # Create Aliases
 alias ls='ls -laFh'
-alias ls='exa -laFh --git'
-alias exa='exa -laFh --git' 
+#alias ls='exa -laFh --git'
+alias exa='exa -T' 
 alias man='batman'
 #alias lvim='/Users/ian/.local/bin/lvim'
 
