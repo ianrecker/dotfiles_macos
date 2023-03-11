@@ -2,11 +2,14 @@
 # Syntax Highlighting for Man pages with bat
 # export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_OPTS="--no-quarentine" 
+export PATH="/path/to/anaconda3/bin:$PATH"
+
 
 # Change ZSH Options
 
 # Create Aliases
-alias ls='ls -laFh'
+alias ls='command exa'
+alias screenshots='cd /Users/ian/Pictures/Screenshots/ & open .'
 #alias ls='exa -laFh --git'
 alias exa='exa -T' 
 alias man='batman'

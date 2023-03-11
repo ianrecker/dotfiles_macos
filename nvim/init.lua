@@ -62,6 +62,10 @@ require('packer').startup(function(use)
   -- Fuzzy Finder Algorithm which requires local dependencies to be built. Only load if `make` is available
   use { 'nvim-telescope/telescope-fzf-native.nvim', run = 'make', cond = vim.fn.executable 'make' == 1 }
 
+  -- Toggle term
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+    end}
   -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
   local has_plugins, plugins = pcall(require, 'custom.plugins')
   if has_plugins then
@@ -96,7 +100,6 @@ vim.api.nvim_create_autocmd('BufWritePost', {
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
-
 -- Set highlight on search
 vim.o.hlsearch = false
 
@@ -281,6 +284,26 @@ require('nvim-treesitter.configs').setup {
     },
   },
 }
+-- [Configure Toggle Term - Better Terminal]
+require("toggleterm").setup {
+  size = 50,
+  open_mapping = [[<C-\>]],
+  shade_terminals = true,
+  shading_factor = 1,
+  direction = 'vertical',
+  float_opts = {
+    border = 'single',
+    width = 80,
+    height = 30,
+    winblend = 3,
+    highlights = {
+      border = "Normal",
+      background = "Normal",
+    },
+  },
+}
+
+
 
 -- Better Window Navigation -- My Code
 vim.keymap.set('n', '<C-h>', '<C-w>h')
