@@ -290,6 +290,7 @@ require("toggleterm").setup {
   open_mapping = [[<C-\>]],
   shade_terminals = true,
   shading_factor = 1,
+  -- Types: float, vertical, tab
   direction = 'vertical',
   float_opts = {
     border = 'single',
